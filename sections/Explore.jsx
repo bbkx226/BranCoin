@@ -23,7 +23,7 @@ const Explore = () => {
       <TypingText title="| Features" textStyle="text-center"/>
       <TitleText title={<>Cryptocurrency <br className='md:block hidden'/> at its finest</>} 
       textStyles="text-center" />
-      <div className='mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5'>
+      <div className='mt-[50px] flex lg:flex-row flex-col min-h-[100vh] gap-5'>
         {exploreWorlds.map((world, index) => (
           <ExploreCard 
             key={world.id} 
