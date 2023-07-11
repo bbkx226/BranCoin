@@ -9,7 +9,7 @@ const RootLayout = ({ children }) => (
       <meta property="og:site_name" content="Brandon Ban" />
       <meta property="og:title" content="BranCoin" />
       <meta property="og:type" content="website" />
-      <meta property="og:image" content="%PUBLIC_URL%/bcstamp.png" />
+      <meta property="og:image" content="/bcstamp.png" />
       <meta property="og:image:width" content="125" />
       <meta property="og:image:height" content="125" />
       <meta property="og:description" 
