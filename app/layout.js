@@ -13,7 +13,7 @@ const RootLayout = ({ children }) => (
       <meta property="og:image:width" content="125" />
       <meta property="og:image:height" content="125" />
       <meta property="og:description" 
-    content=' "Hi there! Just wanted to let you know that this portfolio website was created by an undergraduate student who is still learning the ropes when it comes to programming. Feel free to take a look around and check out his work!" ' />
+    content=' "Hi there! Just wanted to let you know that this project was created by an undergraduate student who is still learning the ropes when it comes to programming. Feel free to take a look around and check out his work!" ' />
       <meta property="og:url" content="https://brancoin-crypto.vercel.app" />
       <meta property="og:determiner" content="the" />
       <meta property="og:locale" content="ms_MY" />
