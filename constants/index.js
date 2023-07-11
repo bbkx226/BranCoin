@@ -1,88 +1,85 @@
 export const exploreWorlds = [
   {
-    id: 'world-1',
-    imgUrl: '/planet-01.png',
-    title: 'The Hogwarts',
+    id: 'pixel-1',
+    imgUrl: '/pixel1.gif',
+    title: 'Can be traded using the Ethereum blockchain',
   },
   {
-    id: 'world-2',
-    imgUrl: '/planet-02.png',
-    title: 'The Upside Down',
+    id: 'pixel-2',
+    imgUrl: '/pixel2.gif',
+    title: 'Proof-of-stake consensus mechanism',
   },
   {
-    id: 'world-3',
-    imgUrl: '/planet-03.png',
-    title: 'Kadirojo Permai',
+    id: 'pixel-3',
+    imgUrl: '/pixel3.gif',
+    title: 'Fixed supply of 21 million coins',
   },
   {
-    id: 'world-4',
-    imgUrl: '/planet-04.png',
-    title: 'Paradise Island',
+    id: 'pixel-4',
+    imgUrl: '/pixel4.gif',
+    title: 'Fast transaction speeds',
   },
   {
-    id: 'world-5',
-    imgUrl: '/planet-05.png',
-    title: 'Hawkins Labs',
+    id: 'pixel-5',
+    imgUrl: '/pixel5.gif',
+    title: 'Very low transaction fees',
   },
 ];
 
 export const startingFeatures = [
-  'Find a world that suits you and you want to enter',
-  'Enter the world by reading basmalah to be safe',
-  'No need to beat around the bush, just stay on the gas and have fun',
+  'Decide an amount that suits you and you want to trade or buy',
+  'Enter the Opac1ty platform and register your account using metamask',
+  'Insert the address of the wallet you want to trade or buy with',
 ];
 
 export const newFeatures = [
   {
-    imgUrl: '/vrpano.svg',
-    title: 'A new world',
+    imgUrl: '/phone.png',
+    title: 'The dApp',
     subtitle:
-        'we have the latest update with new world for you to try never mind',
+        'Our initial dApp will allow users to purchase virtual land and items within a gamified metaverse world. All purchases and transactions within the dApp will be made using BranCoin',
   },
   {
-    imgUrl: '/headset.svg',
-    title: 'More realistic',
+    imgUrl: '/angel.png',
+    title: 'NFT Collection',
     subtitle:
-        'In the latest update, your eyes are narrow, making the world more realistic than ever',
+        'We will soon launch an inaugural NFT collection to ignite its virtual economy and link the coin to unique digital assets.',
   },
 ];
 
 export const insights = [
   {
-    imgUrl: '/planet-06.png',
-    title: 'The launch of the Metaverse makes Elon musk ketar-ketir',
+    imgUrl: '/shirtify.gif',
+    title: 'Shirtify',
     subtitle:
-        'Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Diam maecenas sed enim ut sem viverra alique.',
+        'Shirtify is an interactive 3D shirt customization platform that allows visitors to customize shirt colors, upload their own logos, and apply unique textures to the shirt, all viewable in real-time 3D rendering.',
+    website: 'https://shirtify-me.vercel.app/',    
   },
   {
-    imgUrl: '/planet-07.png',
-    title: '7 tips to easily master the madness of the Metaverse',
+    imgUrl: '/ai-verse.gif',
+    title: 'AI verse Community',
     subtitle:
-        'Vitae congue eu consequat ac felis donec. Et magnis dis parturient montes nascetur ridiculus mus. Convallis tellus id interdum',
+        'AI Verse is a community that enables users to share AI prompts by creating posts with hashtags.',
+    website: 'https://ai-verse.vercel.app/',  
   },
   {
-    imgUrl: '/planet-08.png',
-    title: 'With one platform you can explore the whole world virtually',
+    imgUrl: '/aisum.gif',
+    title: 'Articles Summarizer',
     subtitle:
-        'Quam quisque id diam vel quam elementum. Viverra nam libero justo laoreet sit amet cursus sit. Mauris in aliquam sem',
+        'A platform that enables users to input article links for accurate summarization.',
+    website: 'https://brandongpt-summarizer.web.app/', 
   },
 ];
 
 export const socials = [
   {
-    name: 'twitter',
-    url: '/twitter.svg',
+    name: 'github',
+    url: '/github.png',
+    website: 'https://github.com/bbkx226'
   },
   {
     name: 'linkedin',
     url: '/linkedin.svg',
-  },
-  {
-    name: 'instagram',
-    url: '/instagram.svg',
-  },
-  {
-    name: 'facebook',
-    url: '/facebook.svg',
+    website: 'https://www.linkedin.com/in/bbkx/'
   },
 ];

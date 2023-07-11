@@ -14,10 +14,10 @@ const World = () => (
       viewport={{ once: false, amount: 0.25 }}
       className={`${styles.innerWidth} mx-auto flex flex-col`}
     >
-      <TypingText title="People on the World" textStyles="text-center" />
+      <TypingText title="Join the World" textStyles="text-center" />
       <TitleText
         title={<>
-          Track friends around you and invite them to play together in the same world
+          Start your journey with BranCoin & Enjoy!
         </>}
         textStyles={'text-center'}
       />
@@ -39,14 +39,6 @@ const World = () => (
             className='w-full h-full'
           />
         </div>
-
-        <div className='absolute top-0 right-20'>
-          <img src='hawkins-lab.png' alt='hawkins-lab' className='w-full h-full' />
-        </div>
-
-        <div className='absolute top-20 left-20'>
-          <img src='upside-down.png' alt='hawkins-lab' className='w-full h-full' />
-        </div>
         
         <div className='absolute top-10 left-20 w-[70px] h-[70px] p-[6px] rounded-full bg-[#5d6680]'>
           <img 
@@ -61,6 +53,38 @@ const World = () => (
             src='people-03.png'
             alt='people'
             className='w-full h-full'
+          />
+        </div>
+
+        <div className='absolute top-1/2 right-40 w-[70px] h-[70px] p-[6px] rounded-full bg-[#5d6680]'>
+          <img 
+            src='people-04.jpg'
+            alt='people'
+            className='w-full h-full rounded-full'
+          />
+        </div>
+
+        <div className='absolute bottom-40 left-40 w-[70px] h-[70px] p-[6px] rounded-full bg-[#5d6680]'>
+          <img 
+            src='people-05.jpg'
+            alt='people'
+            className='w-full h-full rounded-full'
+          />
+        </div>
+
+        <div className='absolute left-1/2 w-[70px] h-[70px] p-[6px] rounded-full bg-[#5d6680]'>
+          <img 
+            src='people-06.jpg'
+            alt='people'
+            className='w-full h-full rounded-full'
+          />
+        </div>
+        
+        <div className='absolute bottom-1/2 left-3/4 w-[70px] h-[70px] p-[6px] rounded-full bg-[#5d6680]'>
+          <img 
+            src='people-07.jpg'
+            alt='people'
+            className='w-full h-full rounded-full'
           />
         </div>
       </motion.div>
